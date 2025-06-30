@@ -88,3 +88,19 @@ h6 {
     padding: 6px 18px;
     margin-top: 10px;
 }
+
+.box4{
+    background-color: gold;
+    margin: auto;
+    font-size: 10px;
+    width: 300px;
+}
+ .h16{
+    color: black;
+    font-size: 30px;
+ }
+
+ .intel{
+    color: blueviolet;
+    font-size: 30px;
+ }
