@@ -36,51 +36,51 @@ h6 {
     margin-bottom: 10px;
 }
 
-.h12{
+.h12 {
     color: black;
     margin-bottom: 15px;
 }
 
-.bodi{
+.bodi {
     background-color: rgb(255, 255, 255);
 }
 
-.box2{
+.box2 {
     background-color: white;
     margin-bottom: 15px;
     border-left: 5px solid green;
 }
 
-.box1{
+.box1 {
     background-color: lightgrey;
     border-bottom: 10px;
     padding: 8px 12px;
     border: 10px;
 }
 
-.h13{
+.h13 {
     margin-bottom: 15px;
 }
 
-.h14{
+.h14 {
     color: black;
     margin-top: 10px;
 }
 
-.box3{
+.box3 {
     background-color: white;
 }
 
-.h15{
+.h15 {
     color: black;
     margin-bottom: 15px;
 }
 
-.highlight{
+.highlight {
     background-color: yellow;
 }
 
-.link{
+.link {
     color: white;
     background-color: lightgreen;
     border-radius: 5px;
@@ -89,23 +89,61 @@ h6 {
     margin-top: 10px;
 }
 
-.box4{
+.box4 {
     background-color: gold;
     margin: auto;
     font-size: 10px;
     width: 300px;
 }
- .h16{
+ .h16 {
     color: black;
     font-size: 30px;
  }
 
- .intel{
+ .intel {
     color: blueviolet;
     font-size: 30px;
  }
-  iframe{
+  iframe {
     height: 900px;
     width: 900px;
     margin: auto:
   }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fname {
+    color: red;
+  }
+
+  .lname {
+    color: blue;
+  }
+
+  .pswr {
+    color: forestgreen;
+  }
+
+  .age {
+    color: black;
+  }
+
+  .m {
+    color: brown;
+  }
+
+  .f {
+    color: purple;
+  }
+
+  .david {
+    margin-right: auto;
+  }
+
+  .jessica {
+    margin-right: auto;
+  }
+  
