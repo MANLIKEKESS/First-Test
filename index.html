@@ -7,145 +7,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Recipe page</title>
-
+  <link rel="stylesheet" href="recipe.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body style="background-color: rgb(238, 218, 201);">
   <div class="d">
-    <style>
-      .d {
-        background-color: white;
-        margin: auto;
-        width: 50%;
-      }
-      .i {
-        width: 100%;
-      }
-
-      .h11 {
-        text-align: left;
-        margin-bottom: 10px;
-        margin-left: 30px;
-      }
-
-      .pi {
-        margin-left: 10px;
-        margin-right: 20px;
-        text-align: left;
-        width: 600px;
-      }
-      
-      .h12 {
-        color: purple;
-        margin-left: 30px;
-      }
-
-      .de {
-        background-color: rgb(243, 223, 226);
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 30px;
-        margin-left: 0px;
-      }
-
-      .h14 {
-        margin-bottom: 10px;
-        margin-top: 10px;
-        font-size: 20px;
-        margin-left: 30px;
-      }
-
-      .h13 {
-        margin-left: 30px;
-        margin-bottom: 10px;
-        font-size: 20px;
-      }
-
-      .h15 {
-        margin-left: 30px;
-        margin-top: 10px;
-        font-size: 20px;
-      }
-
-      .h16 {
-        color: brown;
-        font-size: 30px;
-        margin-top: auto;
-        margin-bottom: 10px;
-        margin-left: 10px;
-      }
-
-      .p1 {
-        display: flex;
-        flex-direction: column;
-        margin-top: auto;
-        margin-bottom: 30px;
-        font-size: 20px;
-      }
-
-
-      .pet {
-        color: brown;
-        font-size: 30px;
-        margin-top: auto;
-        margin-bottom: 10px;
-        margin-left: 10px;
-      }
-
-      .a12 {
-        border: 10px;
-        display: flex;
-        flex-direction: column;
-        margin-top: auto;
-        margin-bottom: 30px;
-        font-size: 20px
-      }
-
-      .bet{
-        margin-bottom: 10px;
-        margin-left: 10px;
-      }
-
-      .loki {
-         color: brown;
-        font-size: 30px;
-        margin-top: auto;
-        margin-bottom: 10px;
-        margin-left: 10px;
-      }
-
-      .water {
-        font-size: 20px;
-         margin-bottom: 10px;
-        margin-left: 10px;
-      }
-
-      .jet {
-         border: 10px;
-        display: flex;
-        flex-direction: column;
-        margin-top: auto;
-        margin-bottom: 30px;
-        font-size: 20px
-        
-      }
-
-      .wet {
-         margin-bottom: 10px;
-        margin-left: 10px;
-        table-layout: auto;
-        
-      }
-
-      .t {
-        margin-bottom: 30px;
-        border: 1px solid black;
-      }
-    </style>
   <img src="assets/images/image-omelette.jpeg" class="i" alt="">
   <h1 class="h11">Simple Omelette Recipe</h1>
 
@@ -153,15 +19,15 @@
   to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
   <div class="de">
   <h2 class="h12">Preparation time</h2>
-  <ul>
-  <li>Total: Approximately 10 minutes</li>
-  <li>Preparation: 5 minutes</li>
-  <li>Cooking: 5 minutes</li>
+  <ul class="present">
+  <li><span class="spanish">Total</span>: Approximately 10 minutes</li>
+  <li><span class="spanish">Preparation</span>: 5 minutes</li>
+  <li><span class="spanish">Cooking</span>: 5 minutes</li>
   </ul>
   </div>
   <div class="p1">
   <h6 class="h16">Ingredients</h6>
-  <ul>
+  <ul class="new">
   <li>2-3 large eggs</li>
   <li>Salt, to taste</li>
   <li>Pepper, to taste</li>
@@ -169,52 +35,55 @@
   <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
   </ul>
   </div>
-
   <div class="a12">
+    <hr>
   <p2 class="pet">Instructions</p2>
-  <ol>
-  <li>Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+  <ol class="old">
+  <li><span class="spanish">Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
   You can add a tablespoon of water or milk for a fluffier texture.</li>
 
-  <li>Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+  <li><span class="spanish">Heat the pan</span>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
 
-  <li>Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+  <li><span class="spanish">Cook the omelette</span>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
   the eggs evenly coat the surface.</li>
 
-  <li>Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
+  <li><span class="spanish">Add fillings (optional)</span>: When the eggs begin to set at the edges but are still slightly runny in the 
   middle, sprinkle your chosen fillings over one half of the omelette.</li>
 
-  <li>Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
+  <li><span class="spanish">Fold and serve</span>: As the omelette continues to cook, carefully lift one edge and fold it over the 
   fillings. Let it cook for another minute, then slide it onto a plate.</li>
 
-  <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+  <li><span class="spanish">Enjoy</span>: Serve hot, with additional salt and pepper if needed.</li>
   </ol>
   </div>
   <div class="jet">
+    <hr class="line">
   <h19 class="loki">Nutrition</h19>
 
   <p3 class="water">The table below shows nutritional values per serving without the additional fillings.</p3>
 
-  <table class="t">
+  <table>
+    <div class="r">
     <tr>
-      <th>Calories</th>
-      <th>277Kal</th>
+      <td class="left">Calories</td>
+      <td class="right">277Kal</td>
     </tr>
 
     <tr>
-      <th>carbs</th>
-      <th>0g</th>
+      <td class="left">carbs</td>
+      <td class="right">0g</td>
     </tr>
 
     <tr>
-      <th>protein</th>
-      <th>20g</th>
+      <td class="left">protein</td>
+      <td class="right">20g</td>
     </tr>
 
     <tr>
-      <th>fat</th>
-      <th>22g</th>
+      <td class="left">fat</td>
+      <td class="right">22g</td>
     </tr>
+    </div>
     </table>
   </div>
   </div>

@@ -1,0 +1,167 @@
+    
+      .d {
+        background-color: white;
+        margin: auto;
+        width: 50%;
+      }
+      .i {
+        width: 100%;
+      }
+
+      .h11 {
+        text-align: left;
+        margin-bottom: 10px;
+        margin-left: 30px;
+      }
+
+      .pi {
+        margin-left: 10px;
+        margin-right: 20px;
+        text-align: left;
+        width: 600px;
+        color: hsl(30, 10%, 34%);
+      }
+      
+      .h12 {
+        color: purple;
+        margin-left: 30px;
+      }
+
+      .de {
+        background-color: rgb(243, 223, 226);
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-left: 0px;
+      }
+
+      .h14 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 30px;
+      }
+
+      .h13 {
+        margin-left: 30px;
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+
+      .h15 {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 20px;
+      }
+
+      .h16 {
+        color: hsl(14, 45%, 36%);
+        font-size: 30px;
+        margin-top: auto;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+
+      .p1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        margin-bottom: 30px;
+        font-size: 20px;
+      }
+
+
+      .pet {
+        color: hsl(14, 45%, 36%);
+        font-size: 30px;
+        margin-top: auto;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+
+      .a12 {
+        border: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        margin-bottom: 30px;
+        font-size: 20px
+      }
+
+      .bet{
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+
+      .loki {
+         color: hsl(14, 45%, 36%);
+        font-size: 30px;
+        margin-top: auto;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+
+      .water {
+        font-size: 20px;
+         margin-bottom: 10px;
+        margin-left: 10px;
+        color: hsl(30, 10%, 34%);
+      }
+
+      .jet {
+         border: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        margin-bottom: 30px;
+        font-size: 20px
+        
+      }
+
+      .wet {
+         margin-bottom: 10px;
+        margin-left: 10px;
+        table-layout: auto;
+        
+      }
+
+      table {
+        margin: auto;
+        width: 50%;
+        border-collapse: collapse;
+      }
+
+
+      tr,td {
+        border-bottom: solid 1px hsl(30, 10%, 34%);
+        padding: 10px;
+        margin-top: 10px;
+      }
+
+      .left {
+        text-align: left;
+        color: hsl(30, 10%, 34%);
+      }
+
+      .right {
+        text-align: right;
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+      }
+
+      .old {
+        color: hsl(30, 10%, 34%);
+      }
+
+      .spanish {
+        color: hsl(24, 5%, 18%);
+        font-weight: bold;
+      }
+
+      .new {
+        color: hsl(30, 10%, 34%);
+      }
+
+      .present {
+        color: hsl(30, 10%, 34%);
+      }
